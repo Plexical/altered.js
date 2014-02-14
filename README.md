@@ -1,6 +1,6 @@
 # Altered.js
 
-## TL;DR: Reversible state changes for Node &amp; Browser
+***TL;DR:*** *Reversible state changes, Javascript version.*
 
 This module is a port of my similarly named Python module,
 [Altered States](https://github.com/Plexical/altered.states). It's
