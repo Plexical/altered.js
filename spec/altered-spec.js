@@ -8,7 +8,7 @@ describe("The state() function", function() {
       ob.a.should.be.exactly(1);
       ob.b.should.be.exactly(2);
     });
-    Object.keys(ob).should.eql(['a']);
+    ob.should.eql({a:1});
   });
   it("temporary overwrites properties", function() {
     var ob = {a: 1};
@@ -20,7 +20,7 @@ describe("The state() function", function() {
   it("can 'forget' undefined properties", function() {
     var ob = {a: 1, b: 2};
     state(ob, {b: undefined}, function() {
-      Object.keys(ob).should.eql(['a']);
+      ob.should.eql({a: 1});
     });
     ob.should.eql({a: 1, b: 2});
   });
