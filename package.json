@@ -9,7 +9,7 @@
     "url": "git@github.com:Plexical/altered.js.git"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha ./spec/*.js"
+    "test": "./node_modules/mocha/bin/mocha spec"
   },
   "devDependencies": {
     "mocha": "*",
