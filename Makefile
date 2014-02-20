@@ -20,4 +20,5 @@ $(BROWSERIFY):
 
 browser: $(BROWSERIFY)
 	mkdir -p build
-	$(BROWSERIFY) -r ./altered -r should -r ./spec/altered-spec > build/browser-testing.bundle.js
+	$(BROWSERIFY) -r ./altered -r should \
+	-r ./spec/altered-spec > build/browser-testing.bundle.js
