@@ -1,6 +1,7 @@
 {
   "name": "altered.js",
   "description": "Reversible state changes for Node & Browser",
+  "version": "0.8.6",
   "keywords": ["util", "state", "testing", "monkey-patch"],
   "author": "Jacob Oscarson <jacob@plexical.com>",
   "main": "altered.js",
