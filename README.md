@@ -13,7 +13,7 @@ Altered States is mostly meant to handle setup/tear down of test
 fixtures. For the Javascript version, that means that the after the
 environment is modified, either:
 
-## 1. On-shot modifications with a callback
+## 1. One-shot modifications with a callback
 
 You modify your world, and a provide a callback to be called after the
 modifications are applied. When the callback returns, the
@@ -74,5 +74,5 @@ called instead of `state`.
 The script is actually very short, hence there are no subdirectories
 in the project, so modifying it yourself should be simple. Classic
 `make` in combination with `npm` is used to build. A simple `make
-test` should be enought to set up a newly cloned directory for
+test` should be enough to set up a newly cloned directory for
 development. If it isn't please open an issue and I'll look into it.
