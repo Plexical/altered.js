@@ -68,3 +68,11 @@ time. You do this via the `change` function instead:
 
 The same alteration rules as in section 1 is used when `change` is
 called instead of `state`.
+
+## Modifying the code
+
+The script is actually very short, hence there are no subdirectories
+in the project, so modifying it yourself should be simple. Classic
+`make` in combination with `npm` is used to build. A simple `make
+test` should be enought to set up a newly cloned directory for
+development. If it isn't please open an issue and I'll look into it.
