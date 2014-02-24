@@ -1,4 +1,4 @@
-var altered = require('./../altered');
+var altered = require('./altered');
 
 var state = altered.state,
     change = altered.change,
