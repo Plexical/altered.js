@@ -19,7 +19,7 @@ You modify your world, and a provide a callback to be called after the
 modifications are applied. When the callback returns, the
 modifications will be restored (Node.js CLI repl commands shown):
 
-    > var state = require('./altered').state
+    > var state = require('altered.js').state
     undefined
     > var object = {a: 1}
     undefined
@@ -53,7 +53,7 @@ restore function returned to you that you can call yourself at a later
 time. You do this via the `change` function instead:
 
     > // Assumes a new session
-    > var change = require('./altered').change
+    > var change = require('altered.js').change
     undefined
     > var object = {a: 1}
     undefined
